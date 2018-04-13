@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Блог</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/reset.css">
+	
+	<link rel="stylesheet" href="assets/slick-1.8.0/slick/slick.scss">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header-placeholder"></div>
+	<header class="header">
+		<div class="header__top">
+			<nav class="nav nav-head">
+				<a href="index.html" class="nav__item nav-head__item"><span>О компании</span></a>
+				<a href="services.html" class="nav__item nav-head__item"><span>Услуги и цены</span></a>
+				<a href="faq.html" class="nav__item nav-head__item"><span>Вопрос-ответ</span></a>
+				<a href="blog.html" class="nav__item nav-head__item active"><span>Блог</span></a>
+				<a href="#" class="nav__item nav-head__item"><span>Практика</span></a>
+				<a href="contacts.html" class="nav__item nav-head__item"><span>Контакты</span></a>
+			</nav>
+			<div class="social">
+				<a href="#" class="social__item social__item_vk"></a>
+				<a href="#" class="social__item social__item_fb"></a>
+			</div>
+			<div class="nav-toggle_close">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<a class="logo logo_header" href="index.html"></a>
+			<div class="contacts contacts-header">
+				<div class="contacts__item contacts-header__item contacts-header__item_time">
+					<p>9<sup>00</sup> - 18<sup>00</sup></p>
+					<p class="text_red">без выходных</p>
+				</div>
+				<div class="contacts__item contacts-header__item contacts-header__item_addr">
+					<p>г. Москва, ул. Куликовская 12</p>
+					<p>5 этаж, офис “522 А”</p>
+				</div>
+				<div class="contacts__item contacts-header__item contacts-header__item_phone">
+					<p><a href="tel:+74957206922">+7 (495) 720-6922</a></p>
+					<p><a href="tel:+74957206922">+7 (495) 720-6922</a></p>
+				</div>
+			</div>
+			<div class="btn btn_blue btn_services" id="service-btn">
+				<span>Услуги</span>
+				<div class="services-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="nav-toggle nav-toggle_header">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<section class="section section_services section_blue">
+		<div class="links">
+			<div class="links__item">
+				<h4 class="links-header">Б<span class="text_green">а</span>нкротство</h4>
+				<ul class="links-list">
+					<li class="links-list__item"><a href="#">Взыскание у частных лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание у юридических лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание долгов</a></li>
+					<li class="links-list__item"><a href="#">Взыскание по расписке</a></li>
+					<li class="links-list__item"><a href="#">Коллекторские услуги</a></li>
+					<li class="links-list__item"><a href="#">Представление в суде</a></li>
+					<li class="links-list__item">Консультации юр лицам<a href="#"></a></li>
+					<li class="links-list__item"><a href="#">Наследственные дела</a></li>
+				</ul>
+			</div>
+			<div class="links__item">
+				<h4 class="links-header">З<span class="text_green">а</span>щита кредитора</h4>
+				<ul class="links-list">
+					<li class="links-list__item"><a href="#">Взыскание у частных лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание у юридических лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание долгов</a></li>
+					<li class="links-list__item"><a href="#">Взыскание по расписке</a></li>
+					<li class="links-list__item"><a href="#">Коллекторские услуги</a></li>
+					<li class="links-list__item"><a href="#">Представление в суде</a></li>
+					<li class="links-list__item">Консультации юр лицам<a href="#"></a></li>
+					<li class="links-list__item"><a href="#">Наследственные дела</a></li>
+				</ul>
+			</div>
+			<div class="links__item">
+				<h4 class="links-header">З<span class="text_green">а</span>щита должника</h4>
+				<ul class="links-list">
+					<li class="links-list__item"><a href="#">Взыскание у частных лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание у юридических лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание долгов</a></li>
+					<li class="links-list__item"><a href="#">Взыскание по расписке</a></li>
+					<li class="links-list__item"><a href="#">Коллекторские услуги</a></li>
+					<li class="links-list__item"><a href="#">Представление в суде</a></li>
+					<li class="links-list__item">Консультации юр лицам<a href="#"></a></li>
+					<li class="links-list__item"><a href="#">Наследственные дела</a></li>
+				</ul>
+			</div>
+			<div class="links__item">
+				<h4 class="links-header">Б<span class="text_green">а</span>нки</h4>
+				<ul class="links-list">
+					<li class="links-list__item"><a href="#">Взыскание у частных лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание у юридических лиц</a></li>
+					<li class="links-list__item"><a href="#">Взыскание долгов</a></li>
+					<li class="links-list__item"><a href="#">Взыскание по расписке</a></li>
+					<li class="links-list__item"><a href="#">Коллекторские услуги</a></li>
+					<li class="links-list__item"><a href="#">Представление в суде</a></li>
+					<li class="links-list__item">Консультации юр лицам<a href="#"></a></li>
+					<li class="links-list__item"><a href="#">Наследственные дела</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="section section_yellow section_text section_faq-text">
+		<h2 class="section-header">Б<span class="text_green">л</span>оги наших юристов</h2>
+		<div class="text">
+			<p>Для успешной деятельности фирмы в условиях рынка недостаточно ответить на простые вопросы - что и для кого производить. Важнее определить - зачем или во имя чего существует ваша компания. То есть, какова ее миссия.</p>
+			<p>Если руководители фирм точно знают ответы на вопросы - что, для кого и по какой цене, то вопрос - зачем, во имя чего кажется им уже лишним. В ответ на эти вопросы часто приходится слышать недоуменные реплики вроде: "Это метафизика, бизнес существует ради прибыли, ради того, чтобы делать деньги".</p>
+			<p>Чтобы добиться стабильного и долговременного успеха у своих клиентов, необходимо им сказать: "Ребята, нам с вами по дороге", а для этого дорогу надо обозначить. Если руководство поставит перед фирмой сверхзадачу, то она добьется больших результатов. Если цель большая - то результат маленький. Если цель маленькая, то фирма не добьется ничего.</p>
+			<center class="label_search"><input type="search" placeholder="Поиск по разделу" class="search search_faq"><button class=" btn_rounded btn_search"></button></center>
+		</div>
+	</section>
+	<section class="section section_faqs">
+		<div class="faqs">
+			<div class="faqs__right">
+				<h2 class="section-header section-header_blog">Б<span class="text_green">л</span>оги по банкротству</h2>
+				<div class="blog">
+					<div class="blog-item blog-item_fw">
+						<div class="blog-item__left">
+							<p class="blog-item__date">30</p>
+							<p class="blog-item__month">март</p>
+							<p class="blog-item__year">2017</p>
+						</div>
+						<div class="blog-item__right">
+							<h5 class=" blog-item__theme">Новшества в законодательстве</h5>
+							<span class="blog-item_auhor">Валерий Леонидович</span><span class="bi_sep">|</span><span class="blog-item__art-n">30 публикаций</span>
+							<p class="blog-item__anons">Дорогие коллеги, предлагаю вашему вниманию обзор практики ВС РФ по экономическим спорам за август 2017 г. Обзор подготовлен мною совместно с Яной Чернобель и Элиной Елейник. Структура обзора состоит из следующих тематических разделов. <a href="" class="text_green blog-item__link">Подробнее...</a></p>
+							
+						</div>
+					</div>
+					<div class="blog-item blog-item_fw">
+						<div class="blog-item__left">
+							<p class="blog-item__date">30</p>
+							<p class="blog-item__month">март</p>
+							<p class="blog-item__year">2017</p>
+						</div>
+						<div class="blog-item__right">
+							<h5 class=" blog-item__theme">Новшества в законодательстве</h5>
+							<span class="blog-item_auhor">Валерий Леонидович</span><span class="bi_sep">|</span><span class="blog-item__art-n">30 публикаций</span>
+							<p class="blog-item__anons">Дорогие коллеги, предлагаю вашему вниманию обзор практики ВС РФ по экономическим спорам за август 2017 г. Обзор подготовлен мною совместно с Яной Чернобель и Элиной Елейник. Структура обзора состоит из следующих тематических разделов. <a href="" class="text_green blog-item__link">Подробнее...</a></p>
+							
+						</div>
+					</div>
+					<div class="blog-item blog-item_fw">
+						<div class="blog-item__left">
+							<p class="blog-item__date">30</p>
+							<p class="blog-item__month">март</p>
+							<p class="blog-item__year">2017</p>
+						</div>
+						<div class="blog-item__right">
+							<h5 class=" blog-item__theme">Новшества в законодательстве</h5>
+							<span class="blog-item_auhor">Валерий Леонидович</span><span class="bi_sep">|</span><span class="blog-item__art-n">30 публикаций</span>
+							<p class="blog-item__anons">Дорогие коллеги, предлагаю вашему вниманию обзор практики ВС РФ по экономическим спорам за август 2017 г. Обзор подготовлен мною совместно с Яной Чернобель и Элиной Елейник. Структура обзора состоит из следующих тематических разделов. <a href="" class="text_green blog-item__link">Подробнее...</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="pagination">
+					<a href="#" class="pagination__item"><span><</span></a>
+					<a href="#" class="pagination__item"><span>1</span></a>
+					<a href="#" class="pagination__item"><span>2</span></a>
+					<a href="#" class="pagination__item"><span>3</span></a>
+					<a href="#" class="pagination__item"><span>4</span></a>
+					<a href="#" class="pagination__item"><span>5</span></a>
+					<a href="#" class="pagination__item"><span>></span></a>
+				</div>
+			</div>
+			<div class="sidebar faqs__left">
+				<div class="sidebar__inner faqs__left-inner">
+					<div class="sidebar-nav faqs-nav">
+						<a href="#" class="sidebar-nav__item faqs-nav__item active"><span>Блоги по вопросам</span></a>
+						<div class="sb-nav-2">
+							<a href="#" class="sb-nav-2__item"><span>Взыскание у частных лиц</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Взыскание у юридических лиц</span></a>
+							<a href="#" class="sb-nav-2__item active"><span>Взыскание долгов</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Взыскание по расписке</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Коллекторские услуги</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Представление в суде</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Консультации юр лицам</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Наследственные дела</span></a>
+						</div>
+						<a href="#" class="sidebar-nav__item faqs-nav__item active"><span>Блоги по вопросам</span></a>
+						<div class="sb-nav-2">
+							<a href="#" class="sb-nav-2__item"><span>Взыскание у частных лиц</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Взыскание у юридических лиц</span></a>
+							<a href="#" class="sb-nav-2__item active"><span>Взыскание долгов</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Взыскание по расписке</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Коллекторские услуги</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Представление в суде</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Консультации юр лицам</span></a>
+							<a href="#" class="sb-nav-2__item"><span>Наследственные дела</span></a>
+						</div>
+					</div>
+					<center><a href="#" class="btn btn_blue" id="ask">Задать вопрос...</a></center>	
+				</div>				
+			</div>
+		</div>
+	</section>
+	<section class="section section_map">
+		<div id="map"></div>
+	</section>
+	<footer class="footer">
+		<div class="footer__top">
+			<nav class="nav nav_footer">
+				<a href="#" class="nav__item nav__item_footer">О компании</a>
+				<a href="#" class="nav__item nav__item_footer">Услуги и цены</a>
+				<a href="#" class="nav__item nav__item_footer">Вопрос-ответ</a>
+				<a href="#" class="nav__item nav__item_footer">Контакты</a>
+			</nav>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer-left">
+				<a href="" class="logo logo_footer"></a>
+
+				<div class="contacts contacts-footer">
+					<p class="contacts-footer__header">Контакты</p>
+					<div class="contacts__item contacts-footer__item contacts-footer__item_phone">
+						<p><a href="tel:+74957206922">+7 (495) 720-6922</a></p>
+						<p><a href="tel:+74957206922">+7 (495) 720-6922</a></p>
+					</div>
+					<div class="contacts__item contacts-footer__item contacts-footer__item_time">
+						<p>9<sup>00</sup> - 18<sup>00</sup></p>
+						<p class="text_red">без выходных</p>
+					</div>
+					<div class="contacts__item contacts-footer__item contacts-footer__item_addr">
+						<p>г. Москва, ул. Куликовская 12</p>
+						<p>5 этаж, офис “522 А”</p>
+					</div>
+					<p class="contacts-footer__header">Реквизиты</p>
+					<div class="contacts__item contacts-footer__item contacts-footer__item_requ">
+						<p><a href="#">Скачать *.pdf</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-right">
+				<form action="" class="fr-feedback">
+					<p class="fr-feedback__header">О<span class="text_green">с</span>тавьте заявку</p>
+					<input type="text" class="fr-feedback__input" placeholder="Ваше имя">
+					<input type="text" class="fr-feedback__input input_phone" placeholder="+7 (___) ___ __ __" data-mask="+7 000 000 00 00" autocomplete="off" maxlength="16">
+					<input type="email" class="fr-feedback__input" placeholder="Ваш E-mail">
+					<select name="" id="" class="fr-feedback__select">
+						<option value="">Интересующая услуга</option>
+						<option value="">ada</option>
+						<option value="">sad</option>
+						<option value="">asd</option>
+						<option value="">asd</option>
+					</select>
+					<p class="fr-feedback__info"><span>Все поля являются обязательными для заполнения, отправляя ваши данные, вы соглашаетесь на хранение и обработку ваших персональных данных.</span></p>
+					<p class="fr-feedback__btn">	<button class="btn btn_white"> <span>Отправить</span></button></p>
+				</form>
+				<div class="fr-footer">
+					<div class="fr-footer__copyright"><span>© 2014 - 2017 Bankrot group</span></div>
+					<div class="social fr-footer__social">
+						<a href="#" class="social__item social__item_vk"></a>
+						<a href="#" class="social__item social__item_fb"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal modal_ask">
+		<div class="modal__inner modal_yellow">
+			<div class="close close_modal"></div>
+			<div class="modal-header">
+				<h2><span class="text_green"></span></h2>
+			</div>
+			<div class="modal-content">
+				
+				<form action="" class="fr-feedback form_modal">
+					<p class="fr-feedback__header form_modal__header">З<span class="text_green">а</span>дайте вопрос</p>
+					<input type="text" class="fr-feedback__input form_modal__input inut_name" placeholder="Ваше имя">
+					<input type="text" class="fr-feedback__input form_modal__input input_phone" placeholder="+7 (___) ___ __ __" data-mask="+7 000 000 00 00" autocomplete="off" maxlength="16">
+					<input type="email" class="fr-feedback__input form_modal__input" placeholder="Ваш E-mail">
+					<textarea name="" id="" class="fr-feedback__text form_modal__text" placeholder="Текст сообщения">
+					</textarea>
+					<p class="fr-feedback__info form_modal__info">
+						<span class="text_blue">Все поля являются обязательными для заполнения, отправляя ваши данные, вы соглашаетесь на хранение и обработку ваших персональных данных.</span>
+					</p>
+					<p class="fr-feedback__btn form_modal__btn">
+						<button class="btn btn_blue send-modal">
+							<span>Отправить</span>
+						</button>
+					</p>
+				</form>
+				<div class="thanks">
+					<p class="thanks__header">С<span class="text_green">п</span>асибо за ваш вопрос
+					</p>
+					<div class="thanks-content">
+						<div class="thanks__icon"></div>
+						<p class="thanks__text">Спасибо за то, что обратились именно к нам, наши специалисты рассмотрят ваш вопрос и в кратчайшие сроки свяжутся с вами. Для вашего удобства копия обращения отправлена на ваш электронный адрес. Спасибо.</p>
+					</div>
+					<center><a href="#" class="btn btn_blue btn_close close-modal"><span>Закрыть...</span></a></center>
+				</div>
+			</div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/slick-1.8.0/slick/slick.min.js"></script>
+	<script src="assets/jQuery-Mask-Plugin-master/src/jquery.mask.js"></script>
+	<script src="assets/sticky-kit-master/dist/sticky-kit.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		ymaps.ready(function () {
+		    var myMap = new ymaps.Map('map', {
+		            center: [55.572233, 37.564015],
+		            zoom: 16
+		        }, {
+		            searchControlProvider: 'yandex#search'
+		        }),
+
+		        // Создаём макет содержимого.
+		        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+		            '<div style="background:#000; color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+		        ),
+
+		        ekoPlacemark = new ymaps.Placemark([55.572233, 37.564015], {
+		            hintContent: 'Собственный значок метки с контентом',
+		            balloonContent: '<div class="map-content"><img src="img/logo.png"></div>',
+		            iconContent: '<div style="background: #000; overflow:hidden;"></div>'
+		        });
+		        myMap.balloon.open(
+						// Позиция балуна
+						[55.572233, 37.564015], {
+						contentBody: '<div  class="map-content"><img src="img/logo.png"><p>г. Москва, ул. Куликовская 12, 5 этаж, офис “522 А”</p></div>'
+					}, {
+		               // Опции балуна. В данном примере указываем, что балун не должен иметь кнопку закрытия.
+		                closeButton: false
+		        });
+		        myMap.behaviors.disable('scrollZoom'); 
+		    myMap.geoObjects
+		        .add(ekoPlacemark)
+		});
+	</script>
+</body>
+</html>
